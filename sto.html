@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Scroll Fix</title>
+    <style>
+        /* Prevents horizontal scrollbar on the whole page */
+        body {
+            overflow-x: hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Scrollable image container */
+        .image-container {
+            display: flex;
+            gap: 10px; /* Adds space between images */
+            width: 100vw; /* Full width of the viewport */
+            overflow-x: auto; /* Allows horizontal scrolling */
+            white-space: nowrap; /* Prevents wrapping */
+            scrollbar-width: none; /* Hides scrollbar in Firefox */
+            -ms-overflow-style: none; /* Hides scrollbar in IE/Edge */
+        }
+
+        /* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+        .image-container::-webkit-scrollbar {
+            display: none;
+        }
+
+        /* Image styling */
+        .image-container img {
+            display: block;
+            height: auto; /* Keeps aspect ratio */
+            max-width: 100%; /* Ensures responsiveness */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="image-container">
+        <img src="Photos/pp1.jpg" alt="Image 1">
+        <img src="Photos/pp1.jpg" alt="Image 2">
+        <img src="Photos/pp1.jpg" alt="Image 3">
+        <img src="Photos/pp1.jpg" alt="Image 4">
+        <img src="Photos/pp1.jpg" alt="Image 5">
+        <img src="Photos/pp1.jpg" alt="Image 6">
+        <img src="Photos/pp1.jpg" alt="Image 7">
+        <img src="Photos/pp1.jpg" alt="Image 8">
+    </div>
+
+</body>
+</html>
+
+<div>
+    <img src="Photos/pp8.jpg">
+    <p>malavi...</p>
+  </div>
+  <div>
+    <img src="Photos/pp9.jpg">
+    <p>hegdep...</p>
+    <div></div>
+  </div>
+  <div>
+    <img src="Photos/pp10.jpg">
+    <p>mcshni...</p>
+  </div>
+  <div>
+    <img src="Photos/pp11.jpg">
+    <p>priyank...</p>
+  </div>
+  <div>
+    <img src="Photos/pp2.jpg">
+    <p>official...</p>
+  </div>

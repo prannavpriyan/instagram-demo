@@ -1,0 +1,48 @@
+.booo {
+  overflow-x: hidden; 
+  width: 630px;
+  margin: 0px auto;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+ 
+}
+
+.story-section {
+  overflow-x: auto; 
+  white-space: nowrap; 
+  scrollbar-width: none; 
+  -ms-overflow-style: none;
+  width: 630px; 
+  background-color: white;
+  
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: px;
+  align-items: center;
+  padding-top: 20px;
+  gap: 10px; 
+}
+
+.story-section::-webkit-scrollbar {
+  display: none; 
+}
+
+.story-section img {
+  width: 60px;
+  height: 60px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: lightpink;
+  border-radius: 60px;
+  padding: 3px;
+}
+
+.story-section div {
+  display: flex;
+  flex-direction: column;
+  max-width: none;
+  padding: 5px;
+}

@@ -1,0 +1,40 @@
+.small-header{
+  width: 630px;
+  margin: 0px auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+ 
+  height: 60px;
+  margin: 0;
+  border-bottom: 1px solid rgb(224, 223, 223);
+  background-color: white;
+  z-index: 100;
+}
+.header-insta-img{
+  width: 150px;
+  margin-top: 10px;
+
+}
+.input-search{
+  width: 260px;
+  background-color: rgb(235, 230, 230);
+  border: none;
+  height: 37px;
+  
+  border-radius: 7px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.header-right-section{
+  display: flex;
+  
+  margin-left: 110px;
+}
+.like-photo{
+  height: 50px;
+  width: 40px;
+  object-fit: cover;
+  margin-left: 20px;
+}
